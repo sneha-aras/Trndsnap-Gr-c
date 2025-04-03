@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendSnap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TrendSnap</h1>
+            <p>Capture and Share the World's Moments</p>
+        </header>
+        <main>
+            <!-- Login Form -->
+            <div class="form-container login-form active">
+                <input type="text" placeholder="Username or Email" required>
+                <input type="password" placeholder="Password" required>
+                <button class="login-btn">Log In</button>
+                <p class="or">OR</p>
+                <button class="fb-login-btn">Log in with Facebook</button>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <!-- Sign Up Form -->
+            <div class="form-container signup-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button class="signup-btn">Sign Up</button>
+                <p class="or">OR</p>
+                <button class="fb-login-btn">Sign up with Facebook</button>
+            </div>
+
+            <!-- Toggle between Login and Sign Up -->
+            <div class="toggle-section">
+                <p class="toggle-text">Don't have an account? <a href="#" id="toggle-signup">Sign up</a></p>
+                <p class="toggle-text">Already have an account? <a href="#" id="toggle-login">Log in</a></p>
+            </div>
+        </main>
+        <footer>
+            <p>Join TrendSnap today and start sharing your moments!</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
